@@ -934,6 +934,10 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1146,6 +1150,29 @@ video {
 
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
+}
+
+@media (min-width: 640px){
+  .sm\:block{
+    display: block;
+  }
+
+  .sm\:max-w-3xl{
+    max-width: 48rem;
+  }
+
+  .sm\:items-start{
+    align-items: flex-start;
+  }
+
+  .sm\:px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm\:text-left{
+    text-align: left;
+  }
 }
 
 @media (min-width: 768px){
