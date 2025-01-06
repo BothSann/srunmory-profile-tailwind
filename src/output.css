@@ -1344,6 +1344,14 @@ video {
     align-items: center;
   }
 
+  .sm\:gap-8{
+    gap: 2rem;
+  }
+
+  .sm\:gap-9{
+    gap: 2.25rem;
+  }
+
   .sm\:self-center{
     align-self: center;
   }
@@ -1449,6 +1457,18 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:gap-14{
+    gap: 3.5rem;
+  }
+
+  .lg\:gap-20{
+    gap: 5rem;
+  }
+
+  .lg\:gap-16{
+    gap: 4rem;
+  }
+
   .lg\:pl-8{
     padding-left: 2rem;
   }
@@ -1509,6 +1529,10 @@ video {
   .xl\:mx-16{
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .xl\:gap-14{
+    gap: 3.5rem;
   }
 
   .xl\:py-8{
